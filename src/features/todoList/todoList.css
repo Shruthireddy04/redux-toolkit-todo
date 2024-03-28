@@ -1,0 +1,34 @@
+.todoList {
+	text-align: center;
+	padding: 0 40px;
+}
+.addButton {
+	background-color: #05c3dd;
+	color: white;
+	border-width: 0;
+	padding: 4px 8px;
+	border-radius: 5px;
+}
+.removeButton {
+	background: #ff2424;
+}
+.itemCnt {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.checkBox {
+	accent-color: grey;
+}
+.checkboxItem {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
+.checkedItem {
+	text-decoration: line-through;
+}
+.cnt {
+	margin-bottom: 40px;
+}
